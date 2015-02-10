@@ -13,6 +13,8 @@ The resulting base site structure follows:
       - Designs [Site]
       - Media [Site]
       - Users [Site]
+      - Web Services [Site]
+      - Metadata [Folder]
       - Components [Folder]
       - Layouts [Folder]
     - Site [Site]
