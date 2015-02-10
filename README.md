@@ -1,6 +1,6 @@
 # Matrix Base
 
-An opinionated base configuraton for sites in Squiz Matrix.
+An opinionated base configuration for sites in Squiz Matrix.
 
 ## Usage
 
@@ -19,7 +19,7 @@ The resulting base site structure follows:
       - Layouts [Folder]
     - Site [Site]
       - Home [Page]
-      - 404 [page]
+      - 404 [Page]
 
 ## Motivation
 
