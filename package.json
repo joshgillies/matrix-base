@@ -1,0 +1,33 @@
+{
+  "name": "matrix-base",
+  "version": "1.0.0",
+  "description": "An opinionated base configuration for sites in Squiz Matrix.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshgillies/matrix-base.git"
+  },
+  "keywords": [
+    "squiz",
+    "matrix",
+    "my",
+    "source",
+    "mysource",
+    "design",
+    "tree",
+    "assets"
+  ],
+  "author": "Josh Gillies <npm@joshgilli.es> (http://joshgilli.es/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshgillies/matrix-base/issues"
+  },
+  "homepage": "https://github.com/joshgillies/matrix-base#readme",
+  "dependencies": {
+    "node-matrix-importer": "^1.1.1",
+    "node-matrix-virtual-assets": "joshgillies/node-matrix-virtual-assets"
+  }
+}
