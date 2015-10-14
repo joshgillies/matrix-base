@@ -28,6 +28,6 @@
   "homepage": "https://github.com/joshgillies/matrix-base#readme",
   "dependencies": {
     "node-matrix-importer": "^1.1.1",
-    "node-matrix-virtual-assets": "joshgillies/node-matrix-virtual-assets"
+    "node-matrix-assets": "joshgillies/node-matrix-assets"
   }
 }
