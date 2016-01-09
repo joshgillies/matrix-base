@@ -16,14 +16,14 @@ var tree = asset('folder', { name: 'matrix-base' },
     asset('page_standard', { name: 'Home', link: { index: getAssetById('site') } },
       asset('bodycopy', { link: 'type_2', dependant: '1', exclusive: '1' },
         asset('bodycopy_div', { link: 'type_2', dependant: '1' },
-          asset('content_type_wysiwyg', { id: 'test', dependant: '1', exclusive: '1' })
+          asset('content_type_wysiwyg', { dependant: '1', exclusive: '1' })
         )
       )
     ),
-    asset('page_standard', { name: '404', link: ['type_2', { archive: getAssetById('site') }] },
+    asset('page_standard', { name: '404', link: ['type_2', { not_found: getAssetById('site'), archive: getAssetById('site') }] },
       asset('bodycopy', { link: 'type_2', dependant: '1', exclusive: '1' },
         asset('bodycopy_div', { link: 'type_2', dependant: '1' },
-          asset('content_type_wysiwyg', { id: 'test', dependant: '1', exclusive: '1' })
+          asset('content_type_wysiwyg', { dependant: '1', exclusive: '1' })
         )
       )
     )
