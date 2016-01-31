@@ -4,7 +4,8 @@
   "description": "An opinionated base configuration for sites in Squiz Matrix.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "pretest": "standard",
+    "test": "node src"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,7 @@
   },
   "homepage": "https://github.com/joshgillies/matrix-base#readme",
   "dependencies": {
-    "node-matrix-importer": "^1.1.1",
-    "node-matrix-assets": "joshgillies/node-matrix-assets"
+    "node-matrix-assets": "github:joshgillies/node-matrix-assets",
+    "node-matrix-assets-xml": "github:joshgillies/node-matrix-assets-xml"
   }
 }

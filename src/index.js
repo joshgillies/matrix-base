@@ -1,4 +1,4 @@
-var Importer = require('node-matrix-importer')
+var assetsToXML = require('node-matrix-assets-xml')
 var asset = require('node-matrix-assets')
 var getAssetById = asset.getAssetById
 
@@ -30,4 +30,4 @@ var tree = asset('folder', { name: 'matrix-base' },
   )
 )
 
-console.log(JSON.stringify(tree, true, 2))
+console.log(assetsToXML(tree))
